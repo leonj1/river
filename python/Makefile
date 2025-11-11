@@ -31,7 +31,7 @@ test-integration: start-redis
 	@echo "Waiting for Redis to be ready..."
 	@sleep 2
 	@echo "Running integration tests..."
-	REDIS_URL=redis://localhost:6380 pytest packages/ -v -m integration || true
+	REDIS_URL=redis://localhost:6380 pytest packages/ -v -m integration
 	@echo "✅ Integration tests complete"
 
 start-redis:
