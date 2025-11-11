@@ -72,7 +72,7 @@ async def demo_resume_stream(resume_token: str):
 
     def handle_special(special):
         if special.get("type") == "stream_end":
-            print(f"\n\n[Resume complete]")
+            print("\n\n[Resume complete]")
 
     def handle_complete():
         print("\n[Stream complete]")
