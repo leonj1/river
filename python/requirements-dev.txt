@@ -24,6 +24,3 @@ fastapi>=0.100.0
 uvicorn>=0.23.0
 sse-starlette>=1.0.0
 httpx>=0.24.0
-
-# Testing utilities
-httpx>=0.24.0
