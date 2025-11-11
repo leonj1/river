@@ -1,0 +1,26 @@
+# Development dependencies for River Python
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-env>=0.8.1
+pytest-cov>=4.0.0
+
+# Type checking
+mypy>=1.0.0
+
+# Linting and formatting
+ruff>=0.1.0
+
+# Core dependencies
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# Redis
+redis>=5.0.0
+
+# FastAPI
+fastapi>=0.100.0
+uvicorn>=0.23.0
+sse-starlette>=1.0.0
+httpx>=0.24.0
